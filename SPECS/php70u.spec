@@ -1729,7 +1729,7 @@ fi
 %endif
 %{_sbindir}/php-fpm
 %dir %{_sysconfdir}/php-fpm.d
-%attr(770,php-fpm,root) %dir %{_localstatedir}/log/php-fpm
+%attr(770,root,php-fpm) %dir %{_localstatedir}/log/php-fpm
 %{_mandir}/man8/php-fpm.8*
 %dir %{_datadir}/fpm
 %{_datadir}/fpm/status.html
